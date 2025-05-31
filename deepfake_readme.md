@@ -35,7 +35,7 @@ The model incorporates:
 - `Conf.png` - Confusion matrix
 - `roc.png` - ROC curve
 
-#### DFDC Dataset (Generalizability Test)
+#### DFDC Dataset (Image only)
 - `Dconf.png` - Confusion matrix
 - `Droc.png` - ROC curve
 
@@ -46,25 +46,6 @@ The model incorporates:
 - ✅ Cross-dataset validation for generalizability
 - ✅ Comprehensive performance evaluation with multiple metrics
 
-## Getting Started
-
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/Deepfake-Image-Detection.git
-cd Deepfake-Image-Detection
-```
-
-2. Install required dependencies
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the model training/evaluation scripts
-```bash
-python train.py
-python evaluate.py
-```
-
 ## Results Summary
 
 The model demonstrates strong performance on both datasets:
@@ -72,17 +53,8 @@ The model demonstrates strong performance on both datasets:
 - Good generalization capability when tested on DFDC dataset
 - Effective attention mechanisms as shown in the visualization diagrams
 
-## Contributing
-
-Feel free to contribute to this project by:
-- Reporting bugs
-- Suggesting new features
-- Submitting pull requests
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
-
-*For detailed technical specifications and implementation details, please refer to the documentation files included in this repository.*
